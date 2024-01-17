@@ -36,7 +36,7 @@ function navigateTo(link) {
   function buyCupcake() {
     const quantityInput = document.getElementById('quantity');
     const quantity = quantityInput.value;
-    // You can now use the 'quantity' variable to handle the purchase logic
+    
     alert(`Cupcake bought! Quantity: ${quantity}`);
   }
 
